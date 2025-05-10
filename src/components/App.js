@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./styles.css";
-import Editor from "./Editor";
 import useLocalStorage from "../hooks/useLocalStorage";
+import Editor from "./Editor";
+import "./styles.css";
 
 export default function App() {
   const [html, setHtml] = useLocalStorage("html", "");
